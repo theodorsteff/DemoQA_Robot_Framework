@@ -25,8 +25,8 @@ For test suite execution, change the folder path to the base folder of the proje
 ### Running specific test (e.g.: TC17):
 `» python -m robot -d Results -i TC17 Tests/OnlineShopping.robot`
 
-**Python version used:** *Python 3.11.0*
-**RobotFramework version used:** *robotframework 7.2.2*
-**RobotFramework-pythonlibcore version used:** *robotframework-pythonlibcore 4.4.1*
-**RobotFramework-seleniumlibrary version used:** *robotframework-seleniumlibrary 6.7.0*
-**Python version used:** *PyYAML 6.0.2*
+**Python version used:** *Python 3.11.0*  
+**RobotFramework version used:** *robotframework 7.2.2*  
+**RobotFramework-pythonlibcore version used:** *robotframework-pythonlibcore 4.4.1*  
+**RobotFramework-seleniumlibrary version used:** *robotframework-seleniumlibrary 6.7.0*  
+**Python version used:** *PyYAML 6.0.2*  
