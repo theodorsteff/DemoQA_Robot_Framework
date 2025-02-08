@@ -14,12 +14,12 @@ In order to install the required packages, please follow the *pip install* comma
 `» pip install --upgrade robotframework-seleniumlibrary`
 
 ### pyyaml
-`» pip install pyyaml`
+`» pip install pyyaml`  
 
 For test suite execution, change the folder path to the base folder of the project and use the robotframework syntax, as shown below.
 
 ### Running the test suite:
-`» cd <DemoQA_Robot_Framework>`
+`» cd <DemoQA_Robot_Framework>`  
 `» python -m robot -d Results/$(date "+%Y.%m.%d-%H.%M.%S") Tests/OnlineShopping.robot`
 
 ### Running specific test (e.g.: TC17):
