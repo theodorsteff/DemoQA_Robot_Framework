@@ -9,16 +9,6 @@ Resource                    Resources/ShoppingCartApp.robot
 Test Teardown               Close All Browsers
 Suite Teardown              Close All Browsers
 
-# Running the test suite:
-# $python -m robot -d Results Tests/OnlineShopping.robot
-# echo $(date "+%Y.%m.%d-%H.%M.%S") && python -m robot -e Draft -d Results/$(date "+%Y.%m.%d-%H.%M.%S") Tests/OnlineShopping.robot
-
-# Running specific test TC17:
-# $python -m robot -d Results -i TC17 Tests/OnlineShopping.robot
-
-# Manual Login credentials
-# 20140404user@1420.com     dummypassword
-
 *** Test Cases ***
 User Registration Test
     [Documentation]             Register a new user on the online shop
@@ -67,13 +57,6 @@ Remove Products From Cart
     [Documentation]             Add and Remove Products From Cart
     [Tags]                      TC17    17      Smoke       User
     log                         Starting TC17
-    AllProductsApp.Click on Products Button
-    AllProductsApp.Add First Product to Cart
-    ShoppingCartApp.Remove Only Product from Cart
-
-Draft find frames
-    [Documentation]             Draft testcase
-    [Tags]                      Draft
     AllProductsApp.Click on Products Button
     AllProductsApp.Add First Product to Cart
     ShoppingCartApp.Remove Only Product from Cart
