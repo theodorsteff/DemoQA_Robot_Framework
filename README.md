@@ -20,11 +20,8 @@ For test suite execution, change the folder path to the base folder of the proje
 
 ### Running the test suite:
 `» cd <DemoQA_Robot_Framework>`  
-`» python -m robot -d Results/$(date "+%Y.%m.%d-%H.%M.%S") Tests/OnlineShopping.robot`
-
-### Running specific test (e.g.: TC17):
-`» python -m robot -d Results -i TC17 Tests/OnlineShopping.robot`
-
+`» python -m robot -d Results/$(date "+%Y.%m.%d-%H.%M.%S") Tests/OnlineShopping.robot`  
+  
 **Python version used:** *Python 3.11.0*  
 **RobotFramework version used:** *robotframework 7.2.2*  
 **RobotFramework-pythonlibcore version used:** *robotframework-pythonlibcore 4.4.1*  
