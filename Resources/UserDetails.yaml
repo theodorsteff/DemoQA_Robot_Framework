@@ -1,0 +1,15 @@
+user_details:
+  personal_title: Mr
+  first_name: John
+  last_name: Doe
+  personal_pass: test password
+  birth_day: 14
+  birth_month: March
+  birth_year: 1994
+  address: Home
+  country: Singapore
+  state: The State
+  city: The City
+  zipcode: 123456
+  mobile_number: 0800 800 800
+  searched_product_name: Tshirt

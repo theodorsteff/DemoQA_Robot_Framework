@@ -1,0 +1,19 @@
+new_signup_page_details:
+  account_info_txt: xpath=//b[text()='Enter Account Information']
+  title_radio_btn: title
+  input_pass_txt: id=password
+  input_first_name_txt: id=first_name
+  input_last_name_txt: id=last_name
+  birth_day_elm: xpath=//*[@id="days"]
+  birth_month_elm: xpath=//*[@id="months"]
+  birth_year_elm: xpath=//*[@id="years"]
+  newsletter_elm: id=newsletter
+  optin_elm: id=optin
+  input_address_txt: id=address1
+  country_elm: xpath=//*[@id="country"]
+  input_state_txt: name=state
+  input_city_txt: name=city
+  input_zipcode_txt: name=zipcode
+  input_mobile_txt: id=mobile_number
+  subscribe_elm: css=input[id='susbscribe_email']
+  create_acc_btn: xpath=//button[contains(text(),'Create Account')]

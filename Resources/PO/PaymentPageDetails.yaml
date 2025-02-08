@@ -1,0 +1,13 @@
+payment_page_details:
+  payment_txt: Payment
+  name_on_card_css: css=input[data-qa='name-on-card']
+  card_number_css: css=input[data-qa='card-number']
+  cvc_number_css: css=input[data-qa='cvc']
+  expiry_month_css: css=input[data-qa='expiry-month']
+  expiry_year_css: css=input[data-qa='expiry-year']
+  name_on_card_txt: John Joe Doe
+  card_number_txt: 1234 5678 9012 3456
+  cvc_number_txt: 311
+  expiry_month_txt: 12
+  expiry_year_txt: 2134
+  pay_button_txt: Pay and Confirm Order

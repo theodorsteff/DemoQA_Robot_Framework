@@ -1,0 +1,7 @@
+landing_page_details:
+  #browser_used: headlesschrome
+  browser_used: chrome
+  home_url: http://automationexercise.com
+  landing_page_txt: Automation Exercise
+  signup_login_btn: xpath=//a[contains(text(),'Signup / Login')]
+  products_btn: xpath=//a[contains(text(),'Products')]

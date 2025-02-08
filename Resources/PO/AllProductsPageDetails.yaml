@@ -1,0 +1,18 @@
+all_products_page_details:
+  featured_items_elm: class=features_items
+  all_products_txt: All Products
+  product_details_1: /product_details/1
+  search_bar_elm: css=input[id='search_product']
+  search_btn: id=submit_search
+  searched_products_txt: Searched Products
+  product_elm: class=productinfo
+  product_name_elm: class=productinfo > p
+  product_price_elm: class=productinfo > h2
+  product_name_tags:
+    - tshirt
+    - t-shirt
+    - t shirt
+  add_to_cart1: xpath=//*[@data-product-id="1"]
+  cart_modal_elm: id=cartModal
+  view_cart_modal_link: View Cart
+  view_cart_link: link= Cart

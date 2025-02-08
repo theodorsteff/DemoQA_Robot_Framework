@@ -1,0 +1,3 @@
+confirmation_page_details:
+  confirmation_elm: xpath=//b[text()='Account Created!']
+  continue_btn: xpath=//a[contains(text(),'Continue')]

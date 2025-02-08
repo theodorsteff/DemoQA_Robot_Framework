@@ -1,0 +1,4 @@
+user_logged_page_details:
+  conf_elem_txt: xpath=//a[contains(text(),'Logged in as ')]
+  conf_txt: Logged in as
+  delete_account_txt:  Delete Account
