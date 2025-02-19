@@ -1,0 +1,6 @@
+checkout_page_details:
+  checkout_txt: Checkout
+  place_order_link: Place Order
+  order_msg_label: xpath=//*[@id="ordermsg"]/label
+  text_area: xpath=//*[@id="ordermsg"]/textarea
+  text_comment: Dummy shopping order

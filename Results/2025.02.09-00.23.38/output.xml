@@ -8,7 +8,7 @@
 <doc>Logs the given message with the given level.</doc>
 <status status="PASS" start="2025-02-09T00:23:39.089066" elapsed="0.001289"/>
 </kw>
-<kw name="Navigate To Login/Signup Page" owner="RegisterUserApp">
+<kw name="Navigate To Login/Signup Page" owner="RegisterUserActions">
 <kw name="Load" owner="LandingPage">
 <kw name="Open the Home_URL" owner="LandingPage">
 <kw name="Open Browser" owner="SeleniumLibrary">
@@ -577,7 +577,7 @@
 </kw>
 <status status="PASS" start="2025-02-09T00:23:39.090355" elapsed="17.106391"/>
 </kw>
-<kw name="Navigate To Signup Details Page" owner="RegisterUserApp">
+<kw name="Navigate To Signup Details Page" owner="RegisterUserActions">
 <kw name="Enter Details and Click SignUp" owner="LoginSignupPage">
 <kw name="Verify the SignUp Page" owner="LoginSignupPage">
 <kw name="Consent to cookies and Dismiss Alarms" owner="Misc">
@@ -1239,7 +1239,7 @@
 </kw>
 <status status="PASS" start="2025-02-09T00:23:56.196746" elapsed="8.902869"/>
 </kw>
-<kw name="Fill Information and Create Account" owner="RegisterUserApp">
+<kw name="Fill Information and Create Account" owner="RegisterUserActions">
 <kw name="Enter Details and Create Account" owner="NewSignupPage">
 <kw name="Verify Information Request Is Visible" owner="NewSignupPage">
 <kw name="Consent to cookies and Dismiss Alarms" owner="Misc">
@@ -3393,7 +3393,7 @@ Without any arguments.</msg>
 <doc>Logs the given message with the given level.</doc>
 <status status="PASS" start="2025-02-09T00:24:30.796503" elapsed="0.000000"/>
 </kw>
-<kw name="Navigate To Login/Signup Page" owner="LoginUserApp">
+<kw name="Navigate To Login/Signup Page" owner="LoginUserActions">
 <kw name="Load" owner="LandingPage">
 <kw name="Open the Home_URL" owner="LandingPage">
 <kw name="Open Browser" owner="SeleniumLibrary">
@@ -3962,7 +3962,7 @@ Without any arguments.</msg>
 </kw>
 <status status="PASS" start="2025-02-09T00:24:30.796503" elapsed="12.521095"/>
 </kw>
-<kw name="Login with correct credentials" owner="LoginUserApp">
+<kw name="Login with correct credentials" owner="LoginUserActions">
 <kw name="Enter Correct Credentials and Click Login" owner="LoginSignupPage">
 <kw name="Verify the Login Page" owner="LoginSignupPage">
 <kw name="Consent to cookies and Dismiss Alarms" owner="Misc">
@@ -5147,7 +5147,7 @@ Without any arguments.</msg>
 <doc>Logs the given message with the given level.</doc>
 <status status="PASS" start="2025-02-09T00:25:00.479708" elapsed="0.000000"/>
 </kw>
-<kw name="Click on Products Button" owner="AllProductsApp">
+<kw name="Click on Products Button" owner="AllProductsActions">
 <kw name="Load" owner="LandingPage">
 <kw name="Open the Home_URL" owner="LandingPage">
 <kw name="Open Browser" owner="SeleniumLibrary">
@@ -5878,7 +5878,7 @@ Without any arguments.</msg>
 </kw>
 <status status="PASS" start="2025-02-09T00:25:00.479708" elapsed="13.462578"/>
 </kw>
-<kw name="View Details for the First Product" owner="AllProductsApp">
+<kw name="View Details for the First Product" owner="AllProductsActions">
 <kw name="Verify All Products title is visible" owner="AllProductsPage">
 <kw name="Consent to cookies and Dismiss Alarms" owner="Misc">
 <kw name="Sleep" owner="BuiltIn">
@@ -7360,7 +7360,7 @@ Without any arguments.</msg>
 <doc>Logs the given message with the given level.</doc>
 <status status="PASS" start="2025-02-09T00:25:29.786247" elapsed="0.000000"/>
 </kw>
-<kw name="Click on Products Button" owner="AllProductsApp">
+<kw name="Click on Products Button" owner="AllProductsActions">
 <kw name="Load" owner="LandingPage">
 <kw name="Open the Home_URL" owner="LandingPage">
 <kw name="Open Browser" owner="SeleniumLibrary">
@@ -7926,7 +7926,7 @@ Without any arguments.</msg>
 </kw>
 <status status="PASS" start="2025-02-09T00:25:29.786247" elapsed="15.018208"/>
 </kw>
-<kw name="Search for a Product" owner="AllProductsApp">
+<kw name="Search for a Product" owner="AllProductsActions">
 <kw name="Verify All Products title is visible" owner="AllProductsPage">
 <kw name="Consent to cookies and Dismiss Alarms" owner="Misc">
 <kw name="Sleep" owner="BuiltIn">
@@ -9517,7 +9517,7 @@ Without any arguments.</msg>
 <doc>Logs the given message with the given level.</doc>
 <status status="PASS" start="2025-02-09T00:26:00.864933" elapsed="0.002070"/>
 </kw>
-<kw name="Click on Products Button" owner="AllProductsApp">
+<kw name="Click on Products Button" owner="AllProductsActions">
 <kw name="Load" owner="LandingPage">
 <kw name="Open the Home_URL" owner="LandingPage">
 <kw name="Open Browser" owner="SeleniumLibrary">
@@ -10083,7 +10083,7 @@ Without any arguments.</msg>
 </kw>
 <status status="PASS" start="2025-02-09T00:26:00.867003" elapsed="12.612754"/>
 </kw>
-<kw name="Add First Product to Cart" owner="AllProductsApp">
+<kw name="Add First Product to Cart" owner="AllProductsActions">
 <kw name="Verify All Products title is visible" owner="AllProductsPage">
 <kw name="Consent to cookies and Dismiss Alarms" owner="Misc">
 <kw name="Sleep" owner="BuiltIn">
@@ -10780,7 +10780,7 @@ Without any arguments.</msg>
 </kw>
 <status status="PASS" start="2025-02-09T00:26:13.479757" elapsed="7.651502"/>
 </kw>
-<kw name="New User Checkout" owner="ShoppingCartApp">
+<kw name="New User Checkout" owner="ShoppingCartActions">
 <kw name="Checkout New User" owner="CartPage">
 <kw name="Verify the Shopping Cart Page" owner="CartPage">
 <kw name="Consent to cookies and Dismiss Alarms" owner="Misc">
@@ -11346,7 +11346,7 @@ Without any arguments.</msg>
 </kw>
 <status status="PASS" start="2025-02-09T00:26:21.131259" elapsed="7.187511"/>
 </kw>
-<kw name="Navigate To Signup Details Page" owner="RegisterUserApp">
+<kw name="Navigate To Signup Details Page" owner="RegisterUserActions">
 <kw name="Enter Details and Click SignUp" owner="LoginSignupPage">
 <kw name="Verify the SignUp Page" owner="LoginSignupPage">
 <kw name="Consent to cookies and Dismiss Alarms" owner="Misc">
@@ -12007,7 +12007,7 @@ Without any arguments.</msg>
 </kw>
 <status status="PASS" start="2025-02-09T00:26:28.318770" elapsed="7.312135"/>
 </kw>
-<kw name="Fill Information and Create Account" owner="RegisterUserApp">
+<kw name="Fill Information and Create Account" owner="RegisterUserActions">
 <kw name="Enter Details and Create Account" owner="NewSignupPage">
 <kw name="Verify Information Request Is Visible" owner="NewSignupPage">
 <kw name="Consent to cookies and Dismiss Alarms" owner="Misc">
@@ -14143,7 +14143,7 @@ Without any arguments.</msg>
 </kw>
 <status status="PASS" start="2025-02-09T00:26:35.630905" elapsed="22.658889"/>
 </kw>
-<kw name="Logged User Checkout" owner="ShoppingCartApp">
+<kw name="Logged User Checkout" owner="ShoppingCartActions">
 <kw name="Load Shopping Cart" owner="CartPage">
 <kw name="Click on Cart Link" owner="CartPage">
 <kw name="Click Link" owner="SeleniumLibrary">
@@ -14707,7 +14707,7 @@ Without any arguments.</msg>
 </kw>
 <status status="PASS" start="2025-02-09T00:26:58.291090" elapsed="8.580738"/>
 </kw>
-<kw name="Execute Checkout Process" owner="ShoppingCartApp">
+<kw name="Execute Checkout Process" owner="ShoppingCartActions">
 <kw name="Checkout Process" owner="CheckoutPage">
 <kw name="Verify the Checkout Page" owner="CheckoutPage">
 <kw name="Consent to cookies and Dismiss Alarms" owner="Misc">
@@ -15458,7 +15458,7 @@ Without any arguments.</msg>
 </kw>
 <status status="PASS" start="2025-02-09T00:27:06.873212" elapsed="7.366338"/>
 </kw>
-<kw name="Execute Payment Process" owner="ShoppingCartApp">
+<kw name="Execute Payment Process" owner="ShoppingCartActions">
 <kw name="Payment Process" owner="PaymentPage">
 <kw name="Verify the Payment Page" owner="PaymentPage">
 <kw name="Consent to cookies and Dismiss Alarms" owner="Misc">
@@ -16637,7 +16637,7 @@ Without any arguments.</msg>
 </kw>
 <status status="PASS" start="2025-02-09T00:27:14.240558" elapsed="16.492272"/>
 </kw>
-<kw name="Delete current user account" owner="LoginUserApp">
+<kw name="Delete current user account" owner="LoginUserActions">
 <kw name="Delete user account" owner="UserLoggedPage">
 <kw name="Click Link" owner="SeleniumLibrary">
 <msg time="2025-02-09T00:27:30.734916" level="INFO">Clicking link 'Delete Account'.</msg>
@@ -17216,7 +17216,7 @@ Without any arguments.</msg>
 <doc>Logs the given message with the given level.</doc>
 <status status="PASS" start="2025-02-09T00:27:41.360754" elapsed="0.000000"/>
 </kw>
-<kw name="Click on Products Button" owner="AllProductsApp">
+<kw name="Click on Products Button" owner="AllProductsActions">
 <kw name="Load" owner="LandingPage">
 <kw name="Open the Home_URL" owner="LandingPage">
 <kw name="Open Browser" owner="SeleniumLibrary">
@@ -17782,7 +17782,7 @@ Without any arguments.</msg>
 </kw>
 <status status="PASS" start="2025-02-09T00:27:41.360754" elapsed="13.190410"/>
 </kw>
-<kw name="Add First Product to Cart" owner="AllProductsApp">
+<kw name="Add First Product to Cart" owner="AllProductsActions">
 <kw name="Verify All Products title is visible" owner="AllProductsPage">
 <kw name="Consent to cookies and Dismiss Alarms" owner="Misc">
 <kw name="Sleep" owner="BuiltIn">
@@ -18644,7 +18644,7 @@ Without any arguments.</msg>
 </kw>
 <status status="PASS" start="2025-02-09T00:27:54.551164" elapsed="7.772668"/>
 </kw>
-<kw name="Remove Only Product from Cart" owner="ShoppingCartApp">
+<kw name="Remove Only Product from Cart" owner="ShoppingCartActions">
 <kw name="Remove the Only Product from Cart" owner="CartPage">
 <kw name="Verify the Shopping Cart Page" owner="CartPage">
 <kw name="Consent to cookies and Dismiss Alarms" owner="Misc">

@@ -1,3 +1,0 @@
-deleted_account_page_details:
-  deleted_conf_txt: Your account has been permanently deleted!
-  continue_btn: xpath=//a[contains(text(),'Continue')]

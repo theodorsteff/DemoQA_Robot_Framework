@@ -1,0 +1,8 @@
+product_page_details:
+  prod_details_elm: class=product-details
+  product_name: class=product-information > h2
+  category: class=product-information > p
+  price: class=product-information > span > span
+  availability: xpath=//b[text()='Availability:']
+  condition: xpath=//b[text()='Condition:']
+  brand: xpath=//b[text()='Brand:']

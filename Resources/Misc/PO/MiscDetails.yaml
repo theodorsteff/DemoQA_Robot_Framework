@@ -1,0 +1,5 @@
+misc_details:
+  consent_btn: class=fc-cta-consent
+  ad_iframe: xpath=//iframe[@title="Advertisement"]
+  dismiss_button: xpath=//*[@id="dismiss-button"]
+  web_server_error_txt: Web server is returning an unknown error

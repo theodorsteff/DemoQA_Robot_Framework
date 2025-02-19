@@ -1,0 +1,7 @@
+cart_page_details:
+  shopping_cart_txt: Shopping Cart
+  checkout_modal_elm: id=checkoutModal
+  register_login_link: Register / Login
+  shopping_cart_link:  Cart
+  delete_from_cart1: xpath=//*[@id="product-1"]/*/*[@class="cart_quantity_delete"]
+  empty_cart_txt: Cart is empty!

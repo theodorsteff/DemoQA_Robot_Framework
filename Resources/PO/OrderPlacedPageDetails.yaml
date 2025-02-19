@@ -1,3 +1,0 @@
-order_placed_page_details:
-  confirmation_txt: Congratulations! Your order has been confirmed!
-  continue_btn: xpath=//a[contains(text(),'Continue')]
