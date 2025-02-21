@@ -5,9 +5,6 @@ Resource                    Resources/Misc/PO/Misc.robot
 Variables                   Resources/Checkout/PO/OrderPlacedPageDetails.yaml
 
 *** Keywords ***
-Confirm and Continue
-    Verify Order Confirmation Is Visible
-    Click Continue
 
 Verify Order Confirmation Is Visible
     [Documentation]         Verify that the account information is visible

@@ -5,10 +5,6 @@ Resource                    Resources/Misc/PO/Misc.robot
 Variables                   Resources/Checkout/PO/PaymentPageDetails.yaml
 
 *** Keywords ***
-Payment Process
-    Verify the Payment Page
-    Enter banking information
-    Click Pay and Confirm Order
 
 Verify the Payment Page
     [Documentation]         Verify that the checkout page is loaded

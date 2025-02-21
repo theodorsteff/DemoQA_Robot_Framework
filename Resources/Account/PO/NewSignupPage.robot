@@ -6,12 +6,6 @@ Variables                   Resources/Account/PO/NewSignupPageDetails.yaml
 Variables                   Resources/Misc/PO/UserDetails.yaml
 
 *** Keywords ***
-Enter Details and Create Account
-    Verify Information Request Is Visible
-    Fill account information
-    Mark checkboxes
-    Fill address information
-    Submit information
 
 Verify Information Request Is Visible
     [Documentation]         Verify that the account information is visible
@@ -19,6 +13,7 @@ Verify Information Request Is Visible
     Misc.Try to locate element      ${new_signup_page_details}[account_info_txt]
 
 Fill account information
+    [Documentation]         Fill in the required information for account creation
     select radio button             ${new_signup_page_details}[title_radio_btn]     ${user_details}[personal_title]
     input text                      ${new_signup_page_details}[input_pass_txt]      ${user_details}[personal_pass]
     Misc.Scroll to Element          ${new_signup_page_details}[input_first_name_txt]
@@ -27,10 +22,12 @@ Fill account information
     select from list by value       ${new_signup_page_details}[birth_year_elm]      ${user_details}[birth_year]
 
 Mark checkboxes
+    [Documentation]         Mark the newsletter and opt-in checkboxes
     click element                   ${new_signup_page_details}[newsletter_elm]
     click element                   ${new_signup_page_details}[optin_elm]
 
 Fill address information
+    [Documentation]         Fill in the address information for account creation
     input text                      ${new_signup_page_details}[input_first_name_txt]    ${user_details}[first_name]
     input text                      ${new_signup_page_details}[input_last_name_txt]     ${user_details}[last_name]
     input text                      ${new_signup_page_details}[input_address_txt]       ${user_details}[address]
@@ -41,5 +38,6 @@ Fill address information
     input text                      ${new_signup_page_details}[input_mobile_txt]        ${user_details}[mobile_number]
 
 Submit information
+    [Documentation]         Submit the information provided
     Misc.Scroll to Element          ${new_signup_page_details}[subscribe_elm]
     click element                   ${new_signup_page_details}[create_acc_btn]

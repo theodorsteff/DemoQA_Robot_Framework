@@ -7,13 +7,16 @@ Resource                    Resources/Checkout/PO/CartPage.robot
 
 *** Keywords ***
 Click on Products Button
-    LandingPage.Load
+    LandingPage.Open the Home_URL
+    LandingPage.Verify the Landing Page
     LandingPage.Click Products
 
 View Details for the First Product
     AllProductsPage.Verify All Products title is visible
     AllProductsPage.Access the First Product
-    ProductPage.View Details for the Selected Product
+    ProductPage.Verify Product Details is Displayed
+    ProductPage.Verify Required Details Fields Exist
+    ProductPage.Verify Required Details are Filled
 
 Search for a Product
     AllProductsPage.Verify All Products title is visible

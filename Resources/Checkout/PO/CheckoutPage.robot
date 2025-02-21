@@ -9,12 +9,6 @@ Variables                   Resources/Checkout/PO/CheckoutPageDetails.yaml
 Variables                   Resources/Account/PO/NewSignupPageDetails.yaml
 
 *** Keywords ***
-Checkout Process
-    Verify the Checkout Page
-    Verify Address Details
-    Review Order
-    Add Order Comment
-    Click Place Order
 
 Verify the Checkout Page
     [Documentation]         Verify that the checkout page is loaded

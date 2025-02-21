@@ -6,10 +6,6 @@ Resource                    Resources/Misc/PO/Misc.robot
 Variables                   Resources/Products/PO/ProductPageDetails.yaml
 
 *** Keywords ***
-View Details for the Selected Product
-    Verify Product Details is Displayed
-    Verify Required Details Fields Exist
-    Verify Required Details are Filled
 
 Verify Product Details is Displayed
     [Documentation]         Verify that the product details page is loaded

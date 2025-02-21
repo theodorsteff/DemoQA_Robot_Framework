@@ -10,15 +10,24 @@ Remove Only Product from Cart
     CartPage.Remove the Only Product from Cart
 
 New User Checkout
-    CartPage.Checkout New User
+    CartPage.Verify the Shopping Cart Page
+    CartPage.Click Register from Checkout
 
 Logged User Checkout
-    CartPage.Load Shopping Cart
-    CartPage.Checkout Logged User
+    CartPage.Click on Cart Link
+    CartPage.Verify the Shopping Cart Page
+    CartPage.Proceed to Checkout
 
 Execute Checkout Process
-    CheckoutPage.Checkout Process
+    CheckoutPage.Verify the Checkout Page
+    CheckoutPage.Verify Address Details
+    CheckoutPage.Review Order
+    CheckoutPage.Add Order Comment
+    CheckoutPage.Click Place Order
 
 Execute Payment Process
-    PaymentPage.Payment Process
-    OrderPlacedPage.Confirm and Continue
+    PaymentPage.Verify the Payment Page
+    PaymentPage.Enter banking information
+    PaymentPage.Click Pay and Confirm Order
+    OrderPlacedPage.Verify Order Confirmation Is Visible
+    OrderPlacedPage.Click Continue

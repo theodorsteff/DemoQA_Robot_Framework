@@ -23,6 +23,7 @@ Login with Correct Credentials
     Enter Email and Password to Login       ${RANDOM_EMAIL_TC}     ${user_details}[personal_pass]
 
 Enter Email and Password to Login
+    [Documentation]         Enter email and password to login
     [Arguments]             ${user_email}       ${user_password}
     TRY
         input text              ${login_signup_page_details}[login_email_css]       ${user_email}

@@ -14,6 +14,11 @@ Navigate To Signup Details Page
     LoginSignupPage.Click Signup Button
 
 Fill Information and Create Account
-    NewSignupPage.Enter Details and Create Account
-    AccountCreatedPage.Confirm and Continue
+    NewSignupPage.Verify Information Request Is Visible
+    NewSignupPage.Fill account information
+    NewSignupPage.Mark checkboxes
+    NewSignupPage.Fill address information
+    NewSignupPage.Submit information
+    AccountCreatedPage.Verify Confirmation Is Visible
+    AccountCreatedPage.Click Continue
     UserLoggedPage.Verify User is Logged In

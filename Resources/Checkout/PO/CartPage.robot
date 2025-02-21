@@ -5,16 +5,6 @@ Resource                    Resources/Misc/PO/Misc.robot
 Variables                   Resources/Checkout/PO/CartPageDetails.yaml
 
 *** Keywords ***
-Load Shopping Cart
-    Click on Cart Link
-    Verify the Shopping Cart Page
-
-Checkout New User
-    Verify the Shopping Cart Page
-    Click Register from Checkout
-
-Checkout Logged User
-    Proceed to Checkout
 
 Verify the Shopping Cart Page
     [Documentation]         Verify that the shopping cart page is loaded

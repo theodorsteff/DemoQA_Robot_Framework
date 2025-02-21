@@ -5,15 +5,6 @@ Resource                    Resources/Misc/PO/Misc.robot
 Variables                   Resources/Home/PO/LandingPageDetails.yaml
 
 *** Keywords ***
-Load
-    Open the Home_URL
-    Verify the Landing Page
-
-Access Login/Signup
-    Click Login/Signup
-
-Access Products
-    Click Products
 
 Open the Home_URL
     [Documentation]         Open the browser and navigate to the URL

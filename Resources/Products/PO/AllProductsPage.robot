@@ -6,6 +6,7 @@ Variables                   Resources/Products/PO/AllProductsPageDetails.yaml
 Variables                   Resources/Misc/PO/UserDetails.yaml
 
 *** Keywords ***
+
 Verify All Products title is visible
     [Documentation]         Verify that the all products page is loaded
     Misc.Consent to cookies and Dismiss Alarms

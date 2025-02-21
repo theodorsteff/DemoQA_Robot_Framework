@@ -5,9 +5,6 @@ Resource                    Resources/Misc/PO/Misc.robot
 Variables                   Resources/Account/PO/AccountCreatedPageDetails.yaml
 
 *** Keywords ***
-Confirm and Continue
-    Verify Confirmation Is Visible
-    Click Continue
 
 Verify Confirmation Is Visible
     [Documentation]         Verify that the account information is visible
