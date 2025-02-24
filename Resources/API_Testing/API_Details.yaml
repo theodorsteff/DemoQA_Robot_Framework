@@ -1,0 +1,4 @@
+api_details:
+  get_brands_url: https://automationexercise.com/api/brandsList
+  search_product_url: https://automationexercise.com/api/searchProduct
+  search_product: tshirt

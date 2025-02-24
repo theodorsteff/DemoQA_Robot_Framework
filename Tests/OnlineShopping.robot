@@ -1,6 +1,5 @@
 *** Settings ***
 Documentation               This is a demo project based on https://automationexercise.com/test_cases
-Library                     SeleniumLibrary
 Resource                    Resources/Account/RegisterUserActions.robot
 Resource                    Resources/Account/LoginUserActions.robot
 Resource                    Resources/General/GeneralActions.robot
@@ -10,6 +9,7 @@ Test Teardown               Close All Browsers
 Suite Teardown              Close All Browsers
 
 *** Test Cases ***
+
 User Registration Test
     [Documentation]             Register a new user on the online shop
     [Tags]                      TC01    01      Smoke       User
